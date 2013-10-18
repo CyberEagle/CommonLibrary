@@ -8,11 +8,19 @@
     <packaging>jar</packaging>
 
     <name>commonlibrary</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/CyberEagle/CommonLibrary</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
@@ -26,6 +34,17 @@
             </roles>
         </developer>
     </developers>
+
+    <issueManagement>
+        <system>JIRA</system>
+        <url>https://cybereagle.atlassian.net/browse/CL</url>
+    </issueManagement>
+
+    <scm>
+        <url>https://github.com/CyberEagle/CommonLibrary</url>
+        <connection>scm:git:git://github.com/CyberEagle/CommonLibrary.git</connection>
+        <developerConnection>scm:git:git@github.com:CyberEagle/CommonLibrary.git</developerConnection>
+    </scm>
 
     <dependencies>
         <dependency>
